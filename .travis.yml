@@ -22,6 +22,7 @@ before_install:
     - export TZ=Europe/Berlin
     - sudo mkdir /tmp/workflows
     - sudo ln -s ./test_conf /etc/gosa
+    - ls -la /etc/gosa
 
 script:
     - cd plugins/gui/frontend/gosa/
